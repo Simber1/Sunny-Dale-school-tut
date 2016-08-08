@@ -36,7 +36,7 @@ public class Faculty {
 		this.uid = uid;
 	}
 	
-	public Faculty(String name, int uid) throws FacultyException {
+	public Faculty(String name, int uid) {
 		setName(name);
 		setUid(uid);
 	}

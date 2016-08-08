@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package uk.org.kelsohighschool.ps.sunnyDaleSchool.unitTests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+/**
+ * @author Peter
+ *
+ */
+public class FacultyTest {
+
+	/**
+	 * Test method for {@link uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Faculty#Faculty(java.lang.String, int)}.
+	 */
+	@Test
+	public void testFaculty() {
+		fail("Not yet implemented");
+	}
+
+}

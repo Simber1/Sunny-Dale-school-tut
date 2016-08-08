@@ -1,0 +1,25 @@
+package uk.org.kelsohighschool.ps.sunnyDaleSchool.db;
+
+public class Faculty {
+	public String getName() {
+		return name;
+	}
+	
+	/**
+	 * Sets the name of the faculty
+	 * @param name
+	 * @throws FacultyException if the length of name is zero or greater than 32
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getUid() {
+		return uid;
+	}
+	public void setUid(int uid) {
+		this.uid = uid;
+	}
+	private String name;
+	private int uid;
+
+}

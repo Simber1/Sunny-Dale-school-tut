@@ -1,0 +1,5 @@
+package uk.org.kelsohighschool.ps.sunnyDaleSchool.db;
+
+public class Faculty {
+
+}

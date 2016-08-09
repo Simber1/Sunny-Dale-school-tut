@@ -11,7 +11,7 @@ import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Faculty;
 import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.FacultyException;
 
 /**
- * @author Peter
+ * @author Peter aaa
  *
  */
 public class FacultyTest {

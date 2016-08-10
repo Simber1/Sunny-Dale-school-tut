@@ -4,6 +4,7 @@ public abstract class GenericTeacher implements Teacher {
 	
 	private MoralState ms;
 	private String name;
+	@SuppressWarnings("unused")
 	private int uid;
 	
 	public String getName() {
@@ -40,7 +41,7 @@ public abstract class GenericTeacher implements Teacher {
 				rtnVal = "Doer of Evil";
 				break;
 			default:
-				rtnVal = "Depends on Who You Are";
+				rtnVal = "Depends On Who You Are";
 				break;
 			
 		}
@@ -57,6 +58,12 @@ public abstract class GenericTeacher implements Teacher {
 	public int getUid() {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+	
+	public GenericTeacher(String name, int uid, MoralState ms) throws TeacherException { 
+		setName(name);
+		setUid(uid);
+		setMoralState(ms);
 	}
 
 }

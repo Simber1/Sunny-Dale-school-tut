@@ -9,7 +9,6 @@ import org.junit.Test;
 
 import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Faculty;
 import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.FacultyException;
-import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.TeacherException;
 
 /**
  * @author Peter 

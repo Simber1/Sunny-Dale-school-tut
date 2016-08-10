@@ -3,6 +3,8 @@
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Faculty"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.SlayerTeacher"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.FacultyException"/>
-<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.TeacherException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.HumanTeacher"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.MoralState"/>
+<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.TeacherException"/>
 </qualifiedTypeNameHistroy>

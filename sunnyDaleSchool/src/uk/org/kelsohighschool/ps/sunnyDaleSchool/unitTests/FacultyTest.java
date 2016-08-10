@@ -9,6 +9,9 @@ import org.junit.Test;
 
 import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Faculty;
 import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.FacultyException;
+import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.HumanTeacher;
+import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.MoralState;
+import uk.org.kelsohighschool.ps.sunnyDaleSchool.db.TeacherException;
 
 /**
  * @author Peter 
@@ -63,5 +66,19 @@ public class FacultyTest {
 	@Test(expected=FacultyException.class)
 	public void constructorExceptional2() throws FacultyException {
 		Faculty faculty = new Faculty("nmvbhgnjmghvbcfjnmkyhjbgknuvmyi33",1);
+	}
+	
+	/** 
+	 * Testing array
+	 * @throws FacultyException
+	 * @throws TeacherException
+	 */
+	
+	@Test 
+	public void arrayListTest() throws FacultyException, TeacherException { 
+		Faculty faculty = new Faculty("Vlad", 1);
+		HumanTeacher teacher = new HumanTeacher("Vlad", 1, MoralState.GOOD);
+		faculty.addTeacher(teacher);
+		assertEquals(1,faculty.getTeachers().size());
 	}
 }

@@ -1,5 +1,7 @@
 package uk.org.kelsohighschool.ps.sunnyDaleSchool.db;
 
+import java.util.ArrayList;
+
 public class Faculty {
 	/**
 	 * 
@@ -36,11 +38,21 @@ public class Faculty {
 		this.uid = uid;
 	}
 	
+	//Constuctor
 	public Faculty(String name, int uid) throws FacultyException {
 		setName(name);
 		setUid(uid);
+		teachers = new ArrayList<Teacher>();
+	}
+	public ArrayList<Teacher> getTeachers() {
+		return teachers;
+	}
+
+	public void addTeacher(Teacher teacher) {
+		teachers.add(teacher);
 	}
 	private String name;
 	private int uid;
+	private ArrayList<Teacher>teachers;
 
 }

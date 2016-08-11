@@ -56,6 +56,7 @@ public class FacultyTest {
 	 */
 	@Test(expected=FacultyException.class)
 	public void constructorExceptional1() throws FacultyException {
+		@SuppressWarnings("unused")
 		Faculty faculty = new Faculty("",1);
 	}
 	/**
@@ -65,6 +66,7 @@ public class FacultyTest {
 	 */
 	@Test(expected=FacultyException.class)
 	public void constructorExceptional2() throws FacultyException {
+		@SuppressWarnings("unused")
 		Faculty faculty = new Faculty("nmvbhgnjmghvbcfjnmkyhjbgknuvmyi33",1);
 	}
 	

@@ -66,7 +66,8 @@ public class SlayerTeacherTest {
 	
 	@Test(expected=TeacherException.class)
 	public void constructorExpectional1() throws TeacherException { 
-		 SlayerTeacher slayer = new SlayerTeacher("", 1, MoralState.GOOD, 1); 
+		 @SuppressWarnings("unused")
+		SlayerTeacher slayer = new SlayerTeacher("", 1, MoralState.GOOD, 1); 
 	}
 	
 	/**
@@ -77,7 +78,8 @@ public class SlayerTeacherTest {
 	
 	@Test (expected=TeacherException.class)
 	public void constructorExpectional2() throws TeacherException { 
-		 SlayerTeacher slayer = new SlayerTeacher("asdfrrtyuiqwertyuiopzxcvbnmghjk33", 1, MoralState.GOOD, 1); 
+		 @SuppressWarnings("unused")
+		SlayerTeacher slayer = new SlayerTeacher("asdfrrtyuiqwertyuiopzxcvbnmghjk33", 1, MoralState.GOOD, 1); 
 	}
 	
 	//Testing MoralStateDescriptor

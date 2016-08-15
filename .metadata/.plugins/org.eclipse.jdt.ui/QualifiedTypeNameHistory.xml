@@ -4,14 +4,14 @@
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
-<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.SlayerTeacher"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.HumanTeacher"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.VampireTeacher"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.MoralState"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.TeacherException"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.FacultyException"/>
-<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Teacher"/>
-<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.DatabaseConnection"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Faculty"/>
+<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.DatabaseConnection"/>
+<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.Teacher"/>
+<fullyQualifiedTypeName name="uk.org.kelsohighschool.ps.sunnyDaleSchool.db.SlayerTeacher"/>
 </qualifiedTypeNameHistroy>

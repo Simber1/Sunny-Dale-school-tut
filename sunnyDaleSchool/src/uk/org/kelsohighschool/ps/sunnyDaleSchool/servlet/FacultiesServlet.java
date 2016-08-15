@@ -44,7 +44,7 @@ public class FacultiesServlet extends HttpServlet {
 			throw new ServletException(e);
 		}
 		
-		getServletContext().getRequestDispatcher("/jsp/faculties. jsp").forward(request,response);
+		getServletContext().getRequestDispatcher("/jsp/faculties.jsp").forward(request,response);
 	}
 
 }
